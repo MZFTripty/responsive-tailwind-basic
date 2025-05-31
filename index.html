@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>responsive with tailwind</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      .container1 {
+        background-color: red;
+        width: 100px;
+        height: 100px;
+      }
+      .container2 {
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+      }
+      .container3 {
+        background-color: green;
+        width: 100px;
+        height: 100px;
+      }
+      .container4 {
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+      }
+        /* .parentContainer {
+            border: 2px solid black;
+            padding: 10px;
+            display: flex;
+            flex-direction: colomn;
+            height: 500px;
+            justify-content: center;
+            align-items: center;
+            
+        } */
+    </style>
+  </head>
+  <body>
+    <div class="parentContainer p-[10px] border-4 border-black flex justify-evenly h-[500px] items-center  ">
+      <div class="container1">1</div>
+      <div class="container2">2</div>
+      <div class="container3">3</div>
+      <div class="container4">4</div>
+    </div>
+  </body>
+</html>
